@@ -84,17 +84,28 @@ nav ul li a:hover {
 
 .grid2 {
     position: absolute;
-    margin-left: 20rem;
+    margin-left: 7rem;
 }
 
 .grid3 {
+    position: absolute;
+    margin-left: 70rem;
+}
+
+.grid4 {
+    position: absolute;
+    margin-left: 25rem;
+}
+
+.grid5 {
     position: absolute;
     margin-left: 55rem;
 }
 /* layout */
 
 /* teks menu */
-.produk h2 {
+/* produk 1 */
+.produk1 h2 {
     margin-top: 5rem;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -106,7 +117,7 @@ nav ul li a:hover {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: -1rem;
+    margin-left: -9rem;
     top: 52rem;
     width: 50%;
 }
@@ -115,7 +126,7 @@ nav ul li a:hover {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: 21rem;
+    margin-left: 5rem;
     top: 52rem;
     width: 50%;
 }
@@ -124,7 +135,7 @@ nav ul li a:hover {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: 43rem;
+    margin-left: 21rem;
     top: 52rem;
     width: 50%;
 }
@@ -133,8 +144,8 @@ nav ul li a:hover {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: -1rem;
-    top: 82rem;
+    margin-left: 37rem;
+    top: 52rem;
     width: 50%;
 }
 
@@ -142,16 +153,26 @@ nav ul li a:hover {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: 21rem;
-    top: 82rem;
+    margin-left: 52rem;
+    top: 52rem;
     width: 50%;
+}
+/* produk 1 */
+
+/* produk 2 */
+.produk2 h2 {
+    margin-top: 28rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: orangered;
 }
 
 .card6 {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: 43rem;
+    margin-left: -9rem;
     top: 82rem;
     width: 50%;
 }
@@ -160,8 +181,8 @@ nav ul li a:hover {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: -1rem;
-    top: 112rem;
+    margin-left: 5rem;
+    top: 82rem;
     width: 50%;
 }
 
@@ -170,7 +191,7 @@ nav ul li a:hover {
     position: absolute;
     text-align: center;
     margin-left: 21rem;
-    top: 112rem;
+    top: 82rem;
     width: 50%;
 }
 
@@ -178,12 +199,86 @@ nav ul li a:hover {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: 43rem;
-    top: 112rem;
+    margin-left: 37rem;
+    top: 82rem;
     width: 50%;
 }
 
 .card10 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 52rem;
+    top: 82rem;
+    width: 50%;
+}
+/* produk 2 */
+
+/* produk 3 */
+.produk3 h2 {
+    margin-top: 28rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: orangered;
+}
+
+.card11 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: -9rem;
+    top: 112rem;
+    width: 50%;
+}
+
+.card12 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 5rem;
+    top: 112rem;
+    width: 50%;
+}
+
+.card13 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 21rem;
+    top: 112rem;
+    width: 50%;
+}
+
+.card14 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 37rem;
+    top: 112rem;
+    width: 50%;
+}
+
+.card15 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 52rem;
+    top: 112rem;
+    width: 50%;
+}
+/* produk 3 */
+
+/* produk 4 */
+.produk4 h2 {
+    margin-top: 28rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: orangered;
+}
+
+.card16 {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
@@ -192,59 +287,117 @@ nav ul li a:hover {
     width: 50%;
 }
 
-.card11 {
+.card17 {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: 21rem;
+    margin-left: 15rem;
     top: 142rem;
     width: 50%;
 }
 
-.card12 {
+.card18 {
     margin-top: 5rem;
     position: absolute;
     text-align: center;
-    margin-left: 43rem;
+    margin-left: 30rem;
     top: 142rem;
     width: 50%;
 }
+
+.card19 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 45rem;
+    top: 142rem;
+    width: 50%;
+}
+/* produk 4 */
+
+/* produk 5 */
+.produk5 h2 {
+    margin-top: 28rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: orangered;
+}
+
+.card20 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: -1rem;
+    top: 172rem;
+    width: 50%;
+}
+
+.card21 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 15rem;
+    top: 172rem;
+    width: 50%;
+}
+
+.card22 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 30rem;
+    top: 172rem;
+    width: 50%;
+}
+
+.card23 {
+    margin-top: 5rem;
+    position: absolute;
+    text-align: center;
+    margin-left: 45rem;
+    top: 172rem;
+    width: 50%;
+}
+/* produk 5 */
+/* teks menu */
 
 /* footer */
 .footer-container {
     background-color: orangered;
-    margin-top: 118rem;
+    margin-top: 25rem;
 }
 
 .footer-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 40px;
-    }
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
 
-    .footer-container h3 {
-      font-size: 16px;
-      margin-bottom: 15px;
-      font-weight: bold;
-      color: white;
-    }
+.footer-container h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
 
-    .footer-container ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-    .footer-container ul li {
-      margin-bottom: 10px;
-    }
+.footer-container ul li {
+    margin-bottom: 10px;
+}
 
-    .footer-container ul li a {
-      text-decoration: none;
-      color: white;
-      font-size: 14px;
-    }
+.footer-container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
 
-    .footer-container ul li a:hover {
-      text-decoration: underline;
-    }
+.footer-container ul li a:hover {
+    text-decoration: underline;
+}
+    /* footer */
