@@ -47,6 +47,10 @@ nav ul li a:hover {
 }
 /* navbar */
 
-.card {
-    margin-left: 10rem;
+.card1 {
+    margin-left: 10px;
+}
+
+.card2 {
+    margin-right: 50px;
 }

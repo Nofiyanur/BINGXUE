@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: white;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 /* navbar */
@@ -47,53 +49,118 @@ nav ul li a:hover {
 }
 /* navbar */
 
-/* fotopromo */
+/* ================= PROMO ================= */
+
 .promo img {
+    width: 100%;
+    height: 90%;
+    display: block;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
 }
-/* fotopromo */
 
-/* landingpage teks */
+/* ================= PROFIL ================= */
+
+.profil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 70px;
+    gap: 40px;
+}
+
+.text-profil {
+    width: 60%;
+}
+
 .nama p {
-    margin-left: 100px;
-    margin-top: 50px;
     color: orangered;
-    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .judul h2 {
-    margin-left: 70px;
-    font-weight: bolder;
+    font-size: 45px;
     color: orangered;
-    margin-top: -20px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
-.teks1 p {
-    margin-left: 70px;
-}
-
+.teks1 p,
 .teks2 p {
-    margin-left: 70px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
 .toko img {
-    margin-left: 800px;
-    margin-top: -400px;
+    width: 450px;
+    border-radius: 15px;
+    transition: 0.3s;
 }
-/* landingpage teks */
 
-/* menu baru */
+.toko img:hover {
+    transform: scale(1.03);
+}
+
+/* ================= KEMITRAAN ================= */
+.kemitraan img {
+    width: 100%;
+}
+
+/* ================= MENU TERKINI ================= */
+
+.terkini {
+    padding: 70px 40px;
+    background-color: white;
+}
+
 .terkini h3 {
     text-align: center;
-    margin-top: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    font-size: 35px;
     color: orangered;
+    font-weight: bold;
 }
-/* menu baru */
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-menu {
+    background: white;
+    width: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.card-menu:hover {
+    transform: translateY(-10px);
+}
+
+.card-menu img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.card-menu h4 {
+    margin-top: 15px;
+    color: #333;
+}
 
 /* footer */
 .footer-container {
     background-color: orangered;
+    margin-top: 25rem;
 }
 
 .footer-container {
@@ -128,4 +195,54 @@ nav ul li a:hover {
 .footer-container ul li a:hover {
     text-decoration: underline;
 }
-    /* footer */
+/* footer */
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width: 992px){
+
+    .profil {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-profil {
+        width: 100%;
+    }
+
+    .toko img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 768px){
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .judul h2 {
+        font-size: 35px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

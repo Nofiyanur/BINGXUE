@@ -12,7 +12,7 @@
             Kantor pusatnya terletak di Provinsi Shandong, Tiongkok. Bingxue mencakup toko-toko<br>
             di 31 provinsi dan kota termasuk Shandong, Hebei, Henan, Shanxi, Shaanxi, Mongolia<br>
             Dalam, Liaoning, Hubei, Hainan, dan Xinjiang. Pada akhir tahun 2022, jumlah toko<br>
-             Bingxue di seluruh dunia telah melampaui 3.000.</p>
+            Bingxue di seluruh dunia telah melampaui 3.000.</p>
     </div>
     <div class="teks2">
         <p>Bingxue mengambil "pengadaan asal global" sebagai konsep pengembangan produknya.<br>
